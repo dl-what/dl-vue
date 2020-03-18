@@ -1,0 +1,105 @@
+.active-plan .vlt-edit-single .el-form-item__content .el-textarea {
+  width: 400px;
+}
+.active-plan .vlt-edit-single .el-form-item__content .el-input {
+  width: 400px;
+}
+.active-plan .create-plan {
+  margin: 0 0 10px 36px;
+}
+.active-plan .create-plan span {
+  font-size: 18px;
+  font-weight: 800;
+}
+.active-plan .is-send .el-radio {
+  margin-top: 12px;
+}
+.active-plan .active-rule {
+  margin: 20px 0 20px 150px;
+}
+.active-plan .active-rule .rule-item .el-select {
+  width: 150px;
+  margin-right: 20px;
+}
+.active-plan .active-rule .rule-item .el-input {
+  width: 150px;
+  margin-right: 20px;
+  display: inline-block;
+}
+.active-plan .active-rule .rule-item .el-input input {
+  width: 120px !important;
+}
+.active-plan .active-rule .add-rule {
+  width: 440px;
+  height: 50px;
+  margin-left: 50px;
+  font-size: 14px;
+  border: 1px dashed #aaa;
+}
+.active-plan .active-table {
+  margin: 20px 0 20px 150px;
+}
+.active-plan .active-table .remark .el-textarea {
+  width: 500px;
+  display: inline-block;
+  margin-top: 20px;
+}
+.active-plan .control-index {
+  margin: 20px 0 20px 150px;
+}
+.active-plan .control-index .el-checkbox-group {
+  display: inline-block;
+}
+.active-plan .control-index .index-check {
+  margin-top: 20px;
+}
+.active-plan .control-index .index-check .el-checkbox-group {
+  display: inline-block;
+  width: 800px;
+  position: relative;
+  top: -15px;
+  left: 60px;
+}
+.active-plan .control-index .index-check .el-checkbox {
+  margin-bottom: 20px;
+}
+.active-plan .footer-btn {
+  margin: 20px 0 100px 55%;
+}
+.plan-detail .base-data {
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.plan-detail .base-data .rule-form {
+  width: 100%;
+}
+.plan-detail .base-data .rule-form .el-select {
+  width: 120px;
+  margin-right: 10px;
+}
+.plan-detail .base-data .rule-form .el-input {
+  width: 160px;
+}
+.plan-detail .base-data .rule-form .el-input input {
+  width: 160px;
+}
+.plan-detail .progress-bar {
+  width: 70%;
+  margin: 20px 150px;
+}
+.plan-detail .ration-target {
+  margin-top: 20px;
+}
+.plan-detail .ration-target .ration-check {
+  margin-left: 70px;
+  margin-top: -16px;
+}
+.plan-detail .ration-target .ration-check .el-checkbox {
+  margin-bottom: 20px;
+}
+.plan-detail .state-inform {
+  width: 50px;
+  margin-left: 70%;
+  text-align: right;
+}

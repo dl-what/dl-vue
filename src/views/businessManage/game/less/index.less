@@ -1,0 +1,175 @@
+
+.drag-form-container {
+  position: relative;
+}
+.preview-form-container,.drag-form-container{
+  text-align: left;
+  .content-bd{
+    overflow: hidden;
+  }
+  .left-col{
+    box-sizing: border-box;
+    padding: 0 5px;
+    min-height: 480px;
+    float: left;
+    width: 300px;
+    background-color: #fff;
+  }
+  .right-col{
+    z-index: 10;
+    margin-left: 300px;
+  }
+
+  .form-option-list{
+    column-count: 2;
+    column-gap: 2px;
+    width: 100%;
+    .el-form-item{
+      width: 98%;
+      margin: 1%;
+      display: inline-block;
+      padding: 5px 10px 10px;
+      box-sizing: border-box;
+      border: 1px dashed #ccc;
+      background-color: #fff;
+      margin: 0 1% 5px;
+    }
+  }
+  .form-option-item{
+    width: 50%;
+    margin: 0;
+  }
+  .el-form-item{
+    height: 100%;
+  }
+  .el-form-item{
+    cursor: move;
+  }
+
+  .preview-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 5px;
+    .form-btns{
+      padding: 0 10px;
+    }
+  }
+  
+
+
+  /*element-ui表单调整*/
+  .el-form-item{
+    margin-bottom: 0;
+  }
+  .el-form-item__label{
+    line-height: 32px;
+    font-size: 12px;
+  }
+  .el-form--label-top .el-form-item__label{
+    padding: 0;
+  }
+  .el-form-item__content{
+    line-height: 32px;
+  }
+  .line{
+    text-align: center;
+    line-height: 32px;
+  }
+  .el-input__inner{
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+  }
+  .el-select{
+    display: block;
+  }
+  .el-checkbox{
+    vertical-align: top;
+  }
+  .el-input__icon,.el-radio{
+    line-height: 32px;
+  }
+  .el-checkbox__label, .el-radio__label{
+    font-size: 12px;
+  }
+  .el-input-number__decrease, .el-input-number{
+    line-height: 30px;
+    height: 30px;
+  }
+
+
+
+  .top {
+    margin-bottom: 15px;
+    position: relative;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px 20px;
+    overflow: hidden;
+    .status-switch{
+      margin-right: 15px;
+    }
+    .del-bar {
+      height: 60px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: #f56c6c;
+      font-size: 34px;
+      color: #fff;
+      z-index: 1000;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      opacity: 0.8;
+      transform: translate(0, -60px);
+      transition: transform 0.2s ease 0s;
+      &.show {
+        transform: translate(0, 0);
+      }
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+  .el-row {
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .el-col {
+    border-radius: 0px;
+  }
+  .bg-purple-dark {
+    border: 1px solid #000;
+  }
+  .bg-purple {
+    padding: 16px;
+    border: 1px solid #000;
+  }
+  .bg-purple-light {
+    border: 1px solid #000;
+  }
+  .grid-content {
+    min-height: 500px;
+  }
+  .row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+  }
+  .bottom {
+    position: relative;
+    top: 30px;
+    left: 0px;
+  }
+  .grid-content.bg-purple {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+}

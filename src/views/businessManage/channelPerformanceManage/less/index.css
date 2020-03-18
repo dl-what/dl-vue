@@ -1,0 +1,22 @@
+.addlevel-config .level-score,
+.editlevel-config .level-score {
+  display: inline-block;
+}
+.addlevel-config .level-score .el-input,
+.editlevel-config .level-score .el-input {
+  width: 120px;
+}
+.addlevel-config .score-icon,
+.editlevel-config .score-icon {
+  margin: 0 10px;
+  line-height: 30px;
+}
+.addlevel-config .remark,
+.editlevel-config .remark {
+  color: #999999;
+  margin-left: 10px;
+}
+.addlevel-config .btn-box,
+.editlevel-config .btn-box {
+  margin-left: 160px;
+}

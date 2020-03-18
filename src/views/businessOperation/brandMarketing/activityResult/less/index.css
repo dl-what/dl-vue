@@ -1,0 +1,41 @@
+.result-assess .start-assess {
+  margin: 20px 25%;
+}
+.result-assess .start-assess .start-btn {
+  margin-left: 90px;
+}
+.result-assess .report-type {
+  margin: 50px 200px;
+}
+.result-assess .report-type .upload-file {
+  margin: -25px 0 100px 160px;
+}
+.result-assess .report-type .upload-file .upload-tip {
+  margin-top: 15px;
+  color: #aaa;
+}
+.result-assess .report-type .report-btn {
+  margin-left: 160px;
+}
+.result-assess .index-config .control-index {
+  margin: 50px 150px;
+}
+.result-assess .index-config .control-index .el-checkbox-group {
+  display: inline-block;
+}
+.result-assess .index-config .control-index .index-check {
+  margin-top: 20px;
+}
+.result-assess .index-config .control-index .index-check .el-checkbox-group {
+  display: inline-block;
+  width: 800px;
+  position: relative;
+  top: -18px;
+  left: 70px;
+}
+.result-assess .index-config .control-index .index-check .el-checkbox {
+  margin-bottom: 20px;
+}
+.result-assess .index-config .enter-btn {
+  margin-left: 50%;
+}

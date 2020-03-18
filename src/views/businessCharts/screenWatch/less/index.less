@@ -1,0 +1,532 @@
+
+ .echartsmap{
+   width: 95%;
+   height: 80%;
+   position: absolute;
+   top:0;
+   left: 3%;
+   top: 20%;  
+ }
+
+ .centerWatch{
+   background-color: #02142c;
+ }
+
+ .centerWatch .chart-hd{
+   min-width: 1000px;
+   padding: 0 10px;
+   height: 72px;
+   background-image: url('../../../../assets/img/chartHd.png');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   background-color: #02142c;
+   background-position: center 0;
+   color: #fff;
+   display: flex;
+   justify-content: flex-start;
+   .title{
+    line-height: 72px;
+    width: 50%;
+    text-align: center;
+    // font-size: 26px;
+    @media (min-width:1200px) {
+      font-size: 1rem;
+      //  transform: scale(0.9)
+    }
+  
+    @media (min-width:1400px) {
+      font-size: 1.25rem
+    }
+  
+    @media (min-width:1600px) {
+      font-size: 1.5rem
+    }
+  
+    @media (min-width:1930px) {
+      font-size:3rem
+    }
+  
+    @media (min-width:2500px) {
+      font-size: 3.5rem
+    }
+   }
+   .date{
+    text-align: left;
+   }
+   .date,
+   .full-handler{
+     font-size: 14px;
+     width: 25%;
+     padding-top: 41px;
+   }
+   .full-handler{
+    .iconfont{
+      cursor: pointer;
+    }
+    text-align: right;
+   }
+ }
+
+ .centerWatch main {
+   background-color: #02142c;
+   height: 1000px;
+   display: flex;
+   padding: 10px;
+   min-width: 1000px;
+   overflow: auto;
+   //  overflow-x：hidden,
+   .title {
+     font-size: 1rem;
+     height: 40px;
+     color: #fff;
+     line-height: 40px;
+     background: linear-gradient(to right, #1868a9, #010c1b);
+     padding-left: 5px;
+   }
+
+   >.left {
+     flex: 20%;
+     position: relative;
+
+     >div {
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       display: flex;
+       flex-direction: column
+     }
+
+     .topSaleSummarize {
+       flex: 1;
+       border: 1px solid #267ca6;
+       border-radius: 3px;
+       //  height: 40%;
+       position: relative;
+       display: flex;
+       flex-direction: column;
+        
+       .salesTitle {
+
+         flex: 10%;
+         margin-top: 20px;
+         color: #1e98df;
+
+         text-align: center;
+
+       }
+
+       .topSales {
+         flex: 55%;
+         width: 100%;
+       }
+
+       //销售数据
+       .salesNumber {
+         margin-bottom: 10px;
+
+         >div {
+           display: flex;
+
+           section {
+             @media (min-width:1200px) {
+               font-size: 0.9rem;
+              //  transform: scale(0.8)
+             }
+
+             @media (min-width:1400px) {
+               font-size: 1rem
+             }
+
+             @media (min-width:1600px) {
+               font-size: 1rem
+             }
+
+             @media (min-width:1930px) {
+               font-size: 1.4rem
+             }
+
+             @media (min-width:2500px) {
+               font-size: 1.6rem
+             }
+
+             flex: 33.3%;
+             text-align: center;
+            //  cursor: pointer;
+
+             //  flex-wrap: wrap; 
+             >p {
+               overflow: hidden;
+               text-overflow: ellipsis;
+               white-space: nowrap;
+             }
+
+             >p:first-child {
+               margin: 7px 0px;
+             }
+
+             &:first-child {
+               >p:first-child {
+                 color: #1e98df;
+               }
+             }
+
+             &:nth-child(2) {
+               >p:first-child {
+                 color: #1e98df;
+               }
+             }
+
+             &:nth-child(3) {
+               >p:first-child {
+                 color: #1e98df;
+               }
+             }
+
+             >p:last-child {
+               color: #fff;
+             }
+           }
+         }
+       }
+     }
+
+     .bottomGameMachine {
+       margin-top: 10px;
+       border: 1px solid #267ca6;
+       border-radius: 3px;
+       height: 50%;
+       position: relative;
+       display: flex;
+       flex-direction: column;
+
+       >.bottomMachine {
+         flex: 50%;
+       }
+     }
+   }
+
+   >.center {
+     height: 100%;
+     flex: 45%;
+     border: 1px solid #267ca6;
+     border-radius: 3px;
+     margin: 0 10px;
+     position: relative;
+
+     >div {
+       width: 100%;
+       height: 100%;
+       position: absolute;
+      .link{
+        position: absolute;
+        left: 15px;
+        top: 17px;
+        font-size: 13px;
+        color: #1e98df;
+        cursor: pointer;
+      }
+       .center_map {
+         width: 100%;
+         height: 100%;
+         position: relative;
+       }
+
+       .salesNum {
+         position: absolute;
+         //  height: 180px;
+         bottom: 5px;
+         right: 2px;
+         border: 1px solid #267ca6;
+         border-radius: 3px;
+         div.xls {
+           @media (min-width:1200px) {
+             font-size: 0.7rem;
+            //  transform: scale(0.8)
+           }
+
+           @media (min-width:1400px) {
+             font-size: 0.8rem
+           }
+
+           @media (min-width:1600px) {
+             font-size: 0.9rem
+           }
+
+           @media (min-width:1930px) {
+             font-size: 1.4rem
+           }
+
+           @media (min-width:2500px) {
+             font-size: 1.6rem
+           }
+         }
+
+         div:nth-child(n + 2) {
+           height: 38px;
+           line-height: 38px;
+           color: #267ca6;
+           border-bottom: #0d3153 solid 1px;
+           padding: 0 0.6rem;
+         }
+       }
+     }
+   }
+
+   >.right {
+     flex: 35%;
+     position: relative;
+
+     >div {
+       width: 100%;
+       position: absolute;
+       height: 100%;
+       display: flex;
+       flex-direction: column;
+     }
+
+     .salesRanking {
+       width: 100%;
+       border: 1px solid #267ca6;
+       border-radius: 3px;
+       flex: 40%;
+       position: relative;
+       display: flex;
+       flex-direction: column;
+       overflow-x: hidden;
+       overflow-y: hidden;
+
+       /deep/ .tableData {
+         flex: 90%;
+         overflow-x: hidden;
+
+         .el-table__empty-block {
+           background-color: #02142c;
+         }
+
+         // .el-table{
+         //   background-color: #02142c;
+         //   font-size: 10px;
+         //    transform:scale(0.8) ;
+         // }
+         .el-table th,
+         .el-table td {
+           padding: 0;
+         }
+
+         .el-table td .cell,
+         .el-table th .cell {
+           @media (min-width:1200px) {
+             font-size: 0.7rem !important;
+             transform: scale(0.9);
+             padding: 8px 0;
+             //  width: 60px;
+           }
+
+           @media (min-width:1400px) {
+             font-size: 0.8rem !important
+           }
+
+           @media (min-width:1600px) {
+             font-size: 0.9rem !important
+           }
+
+           @media (min-width:1930px) {
+             font-size: 1.4rem !important
+           }
+
+           @media (min-width:2500px) {
+             font-size: 1.8rem !important
+           }
+
+
+           //  transform-origin:left;
+           //  margin-top: -50px;
+           //  display: block;
+         }
+       }
+     }
+
+     .marketShares {
+       margin-top: 10px;
+       border: 1px solid #267ca6;
+       border-radius: 3px;
+       flex: 40%;
+       position: relative;
+       display: flex;
+       flex-direction: column;
+
+       .sharesMap {
+         flex: 90%;
+         background-color: transparent;
+       }
+     }
+   }
+ }
+
+ /deep/ .main-body .el-table td>.cell {
+   color: #fff !important;
+ }
+
+ .right_opetate {
+   flex: 1;
+   height: 100%;
+   background: #404a59;
+ }
+
+ .mianMap {
+   height: 100%;
+ }
+  .titles{
+    position: absolute;
+    top: 1%;
+    left: 40%;
+    color:#fff
+  }
+ .top5 {
+  //  padding: 0 5px;
+   position: absolute;
+   //  width: 150px;
+   height: 22%;
+   top: 5%;
+   left: 15px;
+   color: #dadde0;
+   border-radius: 4px;
+   border: 1px solid  #267ca6;
+   min-width: 120px;
+
+   >span {
+     height: 35px;
+     line-height: 35px;
+     text-align: center;
+     border-bottom: 1px solid #267ca6;
+     display: block;
+     padding: 0 5px
+   }
+
+   p {
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 1px solid #267ca6;
+     height: 35px;
+     line-height: 35px;
+     padding: 0 5px;
+     >span {}
+
+   }
+   P:last-child{
+     border-bottom: none;
+   }
+ }
+
+ .xs{
+  @media (min-width:1200px) {
+    font-size: 0.8rem;
+    //  transform: scale(0.9)
+  }
+
+  @media (min-width:1400px) {
+    font-size: 1rem
+  }
+
+  @media (min-width:1600px) {
+    font-size: 1.2rem
+  }
+
+  @media (min-width:1930px) {
+    font-size: 1.4rem
+  }
+
+  @media (min-width:2500px) {
+    font-size: 1.6rem
+  }
+  
+ }
+
+ .xl {
+   @media (min-width:1200px) {
+     font-size: 0.6rem;
+      // transform: scale(0.8);
+      margin-right: 0
+      
+   }
+
+   @media (min-width:1400px) {
+     font-size: 0.7rem
+   }
+
+   @media (min-width:1600px) {
+     font-size: 0.9rem
+   }
+
+   @media (min-width:1930px) {
+     font-size: 1.4rem
+   }
+
+   @media (min-width:2500px) {
+     font-size: 1.6rem
+   }
+   
+ }
+ .text{
+  position: absolute;
+  // font-size: 1.5rem;
+  color: #fff;
+  font-weight: normal;
+  left: 50%;
+  top: 8%;
+  transform: translate(-50%);
+  @media (min-width:1200px) {
+    font-size: 1rem;
+    //  transform: scale(0.9)
+  }
+
+  @media (min-width:1400px) {
+    font-size: 1.2rem
+  }
+
+  @media (min-width:1600px) {
+    font-size: 1.4rem
+  }
+
+  @media (min-width:1930px) {
+    font-size: 1.6rem
+  }
+
+  @media (min-width:2500px) {
+    font-size: 1.6rem
+  }
+
+ }
+ .text-style{
+  position: absolute;
+  font-size: 2.6rem;
+  color: #13d2cf;
+  font-style:italic;
+  font-weight: normal;
+  left: 50%;
+  top: 12%;
+  transform: translate(-50%);
+  //, Courier, monospace
+  // 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: 'Franklin Gothic Medium';
+  @media (min-width:1200px) {
+    font-size: 1.7rem;
+    //  transform: scale(0.9)
+  }
+
+  @media (min-width:1400px) {
+    font-size: 2rem
+  }
+
+  @media (min-width:1600px) {
+    font-size: 2.6rem
+  }
+
+  @media (min-width:1930px) {
+    font-size:3rem
+  }
+
+  @media (min-width:2500px) {
+    font-size: 3.5rem
+  }
+}

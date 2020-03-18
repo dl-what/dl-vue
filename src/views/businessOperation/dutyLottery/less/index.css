@@ -1,0 +1,22 @@
+.duty-set .form-data .el-input {
+  width: 358px;
+}
+.duty-set .form-data span {
+  color: #aaa;
+  font-size: 12px;
+  margin-left: 6px;
+}
+.duty-set .duty-table {
+  width: 70%;
+  margin: 20px 0 20px 60px;
+}
+.duty-set .game-duration {
+  padding: 16px;
+}
+.duty-set .game-duration .el-input {
+  width: 200px;
+  margin-right: 20px;
+}
+.duty-set .control-btn {
+  margin: 20px 0 20px 65%;
+}

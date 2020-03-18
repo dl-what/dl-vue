@@ -1,0 +1,63 @@
+.bpmn-container{
+  position: relative;
+  height: 100%;
+  .io-control-list{
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    right: 230px; 
+    padding: 10px;
+    z-index: 99;
+    li{
+      display: inline-block;
+      margin: 0 5px;
+      vertical-align: baseline;
+    }
+    .ft-btns{
+      float: right;
+    }
+  }
+  /deep/.el-dialog__wrapper, /deep/.v-modal{
+    position: absolute;
+  }
+  
+}
+.bpmn-view{
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  right: 220px;
+  .djs-palette-entries{
+    padding-bottom: 10px;
+  }
+  .djs-palette.two-column.open{
+    width: 46px;
+  }
+  .bjs-powered-by{
+    display: none;
+  }
+  // 隐藏没有用到的面板菜单
+  .group[data-group=tools],
+  .bpmn-icon-intermediate-event-none,
+  .group[data-group=data-object],
+  .group[data-group=data-store],
+  .group[data-group=collaboration],
+  .group[data-group=artifact],
+  .entry.bpmn-icon-loop-marker,
+  .djs-popup-body .bpmn-icon-task,
+  .bpmn-icon-send,
+  .bpmn-icon-receive,
+  .bpmn-icon-manual,
+  .bpmn-icon-business-rule,
+  .bpmn-icon-service,
+  .bpmn-icon-script,
+  .bpmn-icon-call-activity,
+  .bpmn-icon-subprocess-collapsed,
+  .bpmn-icon-subprocess-expanded
+  {
+    display: none;
+  }
+}
+

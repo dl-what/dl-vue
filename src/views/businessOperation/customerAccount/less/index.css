@@ -1,0 +1,8 @@
+.account-detail .equity-title {
+  margin-left: 32px;
+  margin-top: 5px;
+}
+.account-detail .equity-title span {
+  display: inline-block;
+  margin-right: 400px;
+}

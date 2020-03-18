@@ -1,0 +1,13 @@
+export const loginInfo = state => state.loginInfo
+export const entry = state => state.entry
+export const routerTags = state => state.routerTags
+export const isFull = state => state.isFull
+export const insData = state => state.insData
+export const HSP_SocketUrl = state => state.HSP_SocketUrl
+export const IDC_SocketUrl = state => state.IDC_SocketUrl
+export const NKB_SocketUrl = state => state.NKB_SocketUrl
+export const gameTypeData = state => state.gameTypeData
+export const gameTypeOptions = state => state.gameTypeOptions
+export const MSG_Socket = state => state.MSG_Socket
+export const fsMode = state => state.fsMode
+export const menuData = state => state.menuData

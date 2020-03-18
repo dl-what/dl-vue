@@ -1,0 +1,153 @@
+.photo-collection {
+  .top-msg {
+    margin-top: 15px;
+  }
+
+  .take-group {
+    padding: 30px;
+
+    .take-item {
+      overflow: hidden;
+      padding-bottom: 20px;
+    }
+
+    .name {
+      float: left;
+      width: 90px;
+      text-align: left;
+      line-height: 30px;
+      font-size: 12px;
+    }
+
+    .take-bd {
+      overflow: hidden;
+    }
+
+    .open-video {
+      background-color: #fbfdff;
+      border: 1px dashed #c0ccda;
+      border-radius: 6px;
+      box-sizing: border-box;
+      width: 120px;
+      height: 120px;
+      cursor: pointer;
+      line-height: 120px;
+      vertical-align: top;
+      text-align: center;
+
+      &:hover {
+        border-color: #409eff;
+        color: #409eff;
+      }
+
+      .icon {
+        font-size: 28px;
+        color: #8c939d;
+      }
+    }
+
+    .img-list-bd {
+      h6 {
+        font-weight: normal;
+        padding-top: 10px;
+        font-size: 12px;
+      }
+    }
+
+  }
+
+  .video-box {
+    width: 800px;
+    height: 500px;
+    background-color: #000;
+    position: relative;
+    text-align: center;
+
+    &:before {
+      content: "视频加载中";
+      position: absolute;
+      z-index: 2011;
+      width: 100%;
+      left: 0;
+      top: 50%;
+      color: #f2f2f2;
+    }
+
+    img {
+      position: relative;
+      z-index: 2012;
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
+    .img-list {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      overflow: hidden;
+      z-index: 2013;
+      padding: 5px 5px 0;
+      margin: 10px;
+      border-radius: 5px;
+      font-size: 0;
+      white-space: nowrap;
+      word-break: keep-all;
+      text-align: center;
+
+      li {
+        float: none;
+        display: inline-block;
+
+        .del {
+          font-size: 14px;
+          z-index: 2014;
+        }
+      }
+    }
+  }
+
+  .img-list {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px 0;
+
+    li {
+      float: left;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      width: 128px;
+      height: 72px;
+      position: relative;
+
+      .del {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        color: #fff;
+        text-align: center;
+        line-height: 20px;
+        background-color: #409EFF;
+        cursor: pointer;
+      }
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+    }
+  }
+
+  .btns-ft {
+    padding: 15px 0 15px 120px;
+  }
+}
+
+.el-form-item__label {
+  width: 120px !important;
+}

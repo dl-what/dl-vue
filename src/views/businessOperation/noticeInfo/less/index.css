@@ -1,0 +1,104 @@
+.bulletin-detail .form-detail {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.bulletin-detail .bottom-btn {
+  margin-left: 450px;
+}
+.create-template .online-channel {
+  margin-left: 80px;
+}
+.create-template .online-channel .post-channel {
+  margin-left: -20px;
+  margin-top: 20px;
+}
+.create-template .content-info {
+  margin-top: 20px;
+}
+.create-template .content-info .play-time {
+  display: inline-block;
+}
+.create-template .content-info .play-time .el-input-number {
+  width: 180px;
+}
+.create-template .content-info .play-time .unit {
+  color: #909399;
+  background: #f5f7fa;
+  display: inline-block;
+  width: 80px;
+  height: 38px;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-left: 0px;
+  border-radius: 0 3px 3px 0;
+}
+.create-template .content-info .play-time .remind {
+  color: #909399;
+  font-size: 12px;
+  margin-left: 15px;
+}
+.create-template .btn-box {
+  margin-left: 35%;
+  margin-bottom: 50px;
+}
+.bulletinTemplate-detail .template-content p {
+  display: inline-block;
+  position: fixed;
+  margin-left: 20px;
+}
+.bulletinTemplate-detail .template-content span {
+  width: 50%;
+  color: #999999;
+  display: inline-block;
+  word-wrap: break-word;
+  margin-left: 105px;
+}
+.bulletinTemplate-detail .template-content div {
+  width: 70%;
+  color: #999999;
+  margin-left: 120px;
+  word-wrap: break-word;
+}
+.add-bullentin /deep/ .static-bd {
+  padding-top: 30px;
+}
+.add-bullentin .layout-title {
+  color: #606266;
+  text-align: right;
+  width: 140px;
+  display: block;
+  padding-right: 12px;
+}
+.add-bullentin .notice-bar {
+  width: 70%;
+  margin: -15px 0 50px 140px;
+}
+.add-bullentin .time-box {
+  margin-left: 135px;
+  margin-bottom: 20px;
+}
+.add-bullentin .time-box .time-title {
+  display: inline-block;
+  margin-right: 103px;
+}
+.add-bullentin .control-btn {
+  margin-top: 20px;
+  padding: 0 0 30px 140px;
+}
+.add-bullentin .time-form {
+  margin-left: 62px;
+}
+.add-bullentin .time-form .el-form-item__label {
+  font-size: 12px;
+}
+.add-bullentin .time-form .el-input {
+  width: 350px;
+}
+.add-bullentin .time-form .delete-text {
+  margin-left: 20px;
+}
+.add-bullentin .addtime-btn {
+  width: 350px;
+  margin-left: 144px;
+}
